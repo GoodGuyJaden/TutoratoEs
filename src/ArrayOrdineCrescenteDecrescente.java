@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ArrayOrdineCrescente 
+public class ArrayOrdineCrescenteDecrescente 
 {
 	public static void main(String[] args) 
 	{
@@ -9,7 +9,7 @@ public class ArrayOrdineCrescente
 		
 		for(int i = 0, j = 0; i < a.length; j++)
 		{
-			if(a[i] > a[j])
+			if(a[i] > a[j])		//inserire minore per ordine decrescente
 			{
 				v = a[i];
 				a[i] = a[j];
